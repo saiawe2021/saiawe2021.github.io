@@ -129,9 +129,15 @@ nav a:hover{
     border-radius:12px;
 }
 
-.btn-secondary{
-    border:1px solid rgba(255,255,255,.15);
+.btn-primary:hover {
+    background: #90b1e7;
+    transform:
+        translateY(-3px)
+        scale(1.12);
+}
 
+.btn-secondary{
+    background:#3b82f6;
     color:white;
 
     text-decoration:none;
@@ -141,6 +147,13 @@ nav a:hover{
     border-radius:12px;
 }
 
+
+.btn-secondary:hover {
+     background: #90b1e7;
+     transform:
+        translateY(-3px)
+        scale(1.12);
+}
 /* IMAGE */
 
 .hero-image{
